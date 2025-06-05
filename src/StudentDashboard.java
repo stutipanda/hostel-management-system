@@ -30,7 +30,7 @@ public class StudentDashboard extends JFrame {
         lodgeComplaintButton.setMaximumSize(buttonSize);
         logoutButton.setMaximumSize(buttonSize);
 
-        // 🧵 Bold text for Logout button only
+        //  Bold text for Logout button only
         logoutButton.setFont(logoutButton.getFont().deriveFont(Font.BOLD));
 
         // Action listeners
