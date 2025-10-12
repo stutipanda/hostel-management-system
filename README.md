@@ -22,6 +22,6 @@
 
 	Language: Java
 
-	Database: (mention if you used MySQL/SQLite or just file handling)
+	Database: MySQL
 
-	IDE: IntelliJ IDEA / Eclipse / NetBeans (whichever you used)
+	IDE: IntelliJ IDEA 
