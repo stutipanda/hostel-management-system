@@ -1,27 +1,124 @@
-✨ Features
+# 🏨 Hostel Management System
 
-	👩‍🎓 Student Dashboard
+A Java-based Hostel Management System built to digitize hostel operations with dedicated dashboards for Students and Admins, ensuring real-time updates, efficient room allocation, fee tracking, and complaint management.
 
-		📌 Room Booking – Students can request a room (1 student per room, real-time status updates).
+This project focuses on reducing manual work, improving transparency, and creating a smooth communication channel between hostel residents and administration.
 
-		💰 Fee Status & Payment – View pending fees and make payments.
+## ✨ Features
+### 👩‍🎓 Student Dashboard
 
-		📝 Complaint Management – Lodge complaints and track their status.
+**🛏️ Room Booking System**
 
-	🛠️ Admin Dashboard
+Students can request rooms.
 
-		✅ Room Allocation – Approve or reject room booking requests.
+Only 1 student per room allowed.
 
-		💵 Fee Management – Assign pending fees and track student payments.
+Room availability updates in real time.
 
-		🛎️ Complaint Handling – View, respond to, and resolve student complaints.
+**💰 Fee Status & Payment**
 
-		🔄 Real-Time Sync – Changes reflect across both dashboards instantly.
+View assigned hostel fees.
 
-🗂️ Tech Stack
+Track payment status (Pending / Paid).
 
-	Language: Java
+Make payments through the system.
 
-	Database: MySQL
+**📝 Complaint Management**
 
-	IDE: IntelliJ IDEA 
+Lodge complaints directly to the admin.
+
+Track complaint status (Pending / Resolved).
+
+View admin responses.
+
+### 🛠️ Admin Dashboard
+
+**✅ Room Allocation Management**
+
+View student booking requests.
+
+Approve or reject requests.
+
+Automatically marks rooms as occupied after approval.
+
+**💵 Fee Management System**
+
+Assign pending fees to students.
+
+Monitor payment records.
+
+**🛎️ Complaint Handling**
+
+View all complaints.
+
+Respond and mark issues as resolved.
+
+**🔄 Real-Time Synchronization**
+
+Updates reflect instantly on both dashboards.
+
+## 🧠 System Highlights
+
+✔️ Role-based access control (Student/Admin)
+
+✔️ Centralized database system
+
+✔️ Real-time status updates
+
+✔️ Structured complaint tracking
+
+✔️ Automated room occupancy control
+
+## 🗂️ Tech Stack
+Component	Technology
+💻 Language	Java
+🗄️ Database	MySQL
+🧰 IDE	IntelliJ IDEA
+🖥️ UI	Java Swing (GUI)
+🔗 Connectivity	JDBC
+🏗️ System Modules
+
+Authentication Module – Student/Admin login system
+
+Room Management Module – Room booking & allocation
+
+Fee Management Module – Fee assignment & tracking
+
+Complaint Management Module – Complaint lodging & resolution
+
+Database Layer – MySQL integration & data synchronization
+
+## 🚀 Future Enhancements
+
+### 💳 Online payment gateway integration
+
+### 📩 Email/SMS notifications
+
+### 📊 Hostel attendance tracking
+
+### 🚪 Visitor management system
+
+### 📱 Mobile application version
+
+## 🎯 Project Objective
+
+To design an efficient, user-friendly hostel management solution that reduces paperwork, enhances communication, and ensures organized hostel administration.
+
+## ⚙️ How to Run the Project
+```
+1. Clone the repository
+   git clone <your-repo-link>
+
+2. Open the project in IntelliJ IDEA
+
+3. Configure MySQL database
+   - Create database
+   - Import project tables
+
+4. Update database credentials in the code
+
+5. Run the main Java file
+```
+## 📌 Author
+
+Stuti Panda
